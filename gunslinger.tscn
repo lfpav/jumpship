@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1oo1y5ujyd4y"]
+
+[ext_resource type="Script" path="res://gunslinger.gd" id="1_j1ryw"]
+[ext_resource type="Texture2D" uid="uid://cu77uk08jei65" path="res://icon.svg" id="2_5dg1l"]
+
+[node name="gunslinger" type="Node2D"]
+script = ExtResource("1_j1ryw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_5dg1l")
